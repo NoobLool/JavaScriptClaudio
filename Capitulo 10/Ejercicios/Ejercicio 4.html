@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 10.4</title>
+
+    <link rel="stylesheet" href="../../css/baseStyle.css" type="text/css">
+
+</head>
+<body>
+    <li><a href = "../../index.html" target = "_self">
+        <strong>Inicio</strong></a></li>
+    <div class="contenido">
+        <h3>
+            Escribir instrucciones de JavaScript (con respecto al arrreglo <em>tabla</em>) para realizar cada una de las siguientes tareas:
+        </h3>
+        <div class="boxContent">
+
+            <ol type="a">
+                <div class="oracion">
+                    <li>
+                        Declarar y crear el arreglo con tres filas y tres columnas.
+                    </li>
+                    <p class="respuesta">
+                        <b>var</b> arreglo = [ <br>
+                        &emsp;[0, 0, 0], <br>
+                        &emsp;[0, 0, 0], <br>
+                        &emsp;[0, 0, 0] <br>
+                        ];
+                    </p>
+                </div>
+                <div class="oracion">
+                    <li>
+                        Almacenar el número total de elementos en la variable <em>totalElementos</em>.
+                    </li>
+                    <p class="respuesta">
+                        <b>var</b> totalElementos = arreglo.length * 3;
+                    </p>
+                </div>
+                <div class="oracion">
+                    <li>
+                        Usar una instrucción <em>for...in</em> para inicializar cada elemento del arreglo con la suma de sus índices de fila y de columna. Suponga que las variables x y y declaran como variables de control.
+                    </li>
+                    <p class="respuesta">
+                        <b>for</b> ( <b>var</b> x <b>in</b> arreglo ){ <br>
+                        &emsp;<b>for</b> ( <b>var</b> y <b>in</b> arreglo[x] ){<br>
+                        &emsp;&emsp;arreglo[x][y] = x + y; <br>
+                        &emsp;} <br>
+                        }
+                    </p>
+                </div>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
