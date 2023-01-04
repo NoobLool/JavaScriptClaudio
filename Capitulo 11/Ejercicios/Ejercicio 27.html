@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 11.27</title>
+
+    <link rel="stylesheet" href="../../css/baseStyle.css" type="text/css">
+
+    <script src="../Scripts/Ejercicio 27.js"></script>
+
+</head>
+<body>
+    <li><a href = "../../index.html" target = "_self">
+        <strong>Inicio</strong></a></li>
+    <div class="contenido">
+        <h3>
+            <em>(Proyecto: un corrector ortográfico)</em> Muchos paquetes populares de software de procesamiento de palabras cuentan con correctores ortográficos integrados. <br>
+            Diseñe e implemente una aplicación de correción ortográfica en JavaScript. Su programa debe mantener un arreglo de cadenas llamado <em>listaDePalabras</em>. Permita al usuario introducir cadenas. Su programa debe pedir al usuario que introduzca una palabra. La aplicación debe entonces buscar esa palabra en el arreglo <em>listaDePalabras</em>. Si la palabra se encuentra en el arreglo, su programa deberá imprimir <em>"La palabra está escrita correctamente"</em>. En caso contrario <em>"La palabra no está escrita correctamente"</em>. Después su aplicación debe tratar de localizar otras palabras en la <em>listaDePalabras</em> que puedan ser la palabra que el usuario trataba de escribir. Cuando encuentre una nueva palabra que concuerde con una en la <em>listaDePalabras</em>, imprima esa palabra en un mensaje como <em>"¿Quiso decir "predeterminado"?"</em>
+        </h3>
+        <div class="boxContent">
+            <p>Nota: Es posible que la palabra que escribió no se encuentre en el arreglo <em>listaDePalabras</em> incluso si está bien escrita.</p>
+            <form action="#">
+                <input type="text" id="campoPalabra">
+                <input type="button" value="Comprobar" id="comprobar">
+            </form>
+            <p id="resultado"></p>
+        </div>
+    </div>
+</body>
+</html>

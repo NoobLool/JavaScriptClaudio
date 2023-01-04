@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 11.21</title>
+
+    <link rel="stylesheet" href="../../css/baseStyle.css" type="text/css">
+
+    <script src="../Scripts/Ejercicio 21.js"></script>
+
+</head>
+<body>
+    <li><a href = "../../index.html" target = "_self">
+        <strong>Inicio</strong></a></li>
+    <div class="contenido">
+        <h3>
+            Escriba un programa que lea una palabra de cinco letras proveniente del usuario, y que produzca todas las posibles cadenas de tres letras que puedan derivarse de las letras de la palabra con cinco letras. Por ejemplo, las palabras de tres letras producidas a partir de la palabra "trigo" son "rio", "tio" y "oir".
+        </h3>
+        <div class="boxContent">
+            <p>
+                Nota: Las palabras de tres letras son tomadas de una arreglo propio, por lo que es muy posible que no se encuentren 3 o ninguna palabra derivada. Y no se contemplan los acentos.
+            </p>
+            <form action="#">
+                <input type="text" name="Texto" id="campoTexto" pattern="[A-ZÑa-zñ]{5}">
+                <input type="button" value="Buscar" id="buscar">
+            </form><br>
+            <textarea id="resultado" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+</body>
+</html>
