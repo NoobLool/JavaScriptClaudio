@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 12.6</title>
+
+    <link rel="stylesheet" href="../../css/baseStyle.css" type="text/css">
+    
+    <script src="../Scripts/Ejercicio 6.js"></script>
+
+</head>
+<body>
+    <li><a href = "../../index.html" target = "_self">
+        <strong>Inicio</strong></a></li>
+    <div class="contenido">
+        <h3>
+            Cree una página Web en la que al usuario se le permita seleccionar el color de fondo de la página y si va usar fuentes <em>serif</em> o <em>sans serif</em>. Después cambie el atributo <em>style</em> del elemento <em>body</em> según corresponda.
+        </h3>
+        <div class="boxContent">
+            <form action="#">
+                <label>
+                    Color de fondo: 
+                    <input type="color" name="Color fondo" id="colorFondo">
+                </label><br>
+                Tipo de letra: <br>
+                <label>
+                    <input type="radio" name="Tipografia" value="serif" checked>
+                    Serif
+                </label><br>
+                <label>
+                    <input type="radio" name="Tipografia" value="sans-serif">
+                    Sans serif
+                </label> <br><br>
+                <input type="button" value="Cambiar" id="cambiar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
